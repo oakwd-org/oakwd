@@ -8,7 +8,7 @@ class SiteFooter extends HTMLElement {
         this.innerHTML = `
             <footer class="footer-site">
                 <div class="footer-item">
-                    <p>Acme</p>
+                    <p>Oakwood Trading Limited</p>
                 </div>
             </footer>
         `;
@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 
 // GoatCounter analytics
 const gc = document.createElement('script')
-gc.dataset.goatcounter = 'https://acme.goatcounter.com/count'
+gc.dataset.goatcounter = 'https://oakwd.goatcounter.com/count'
 gc.src = '//gc.zgo.at/count.js'
 gc.async = true
 document.head.appendChild(gc)
